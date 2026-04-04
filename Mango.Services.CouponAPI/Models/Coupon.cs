@@ -1,0 +1,10 @@
+﻿namespace Mango.Services.CouponAPI.Models
+{
+    public class Coupon
+    {
+        public int CouponID { get; set; }
+        public string CouponCode { get; set; }
+        public decimal DiscountAmount { get; set; }
+        public int MinAmount { get; set; }
+    }
+}
